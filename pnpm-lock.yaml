@@ -24,8 +24,8 @@ importers:
         specifier: 0.14.1
         version: 0.14.1(zod@4.6.5)
       '@aws-sdk/client-bedrock':
-        specifier: ^3.1135.0
-        version: 3.1135.0
+        specifier: ^3.1136.0
+        version: 3.1136.0
       '@buape/carbon':
         specifier: 0.0.0-beta-20260216184201
         version: 0.0.0-beta-20260216184201(@discordjs/opus@0.10.0)(hono@4.11.10)(opusscript@0.1.1)
@@ -205,8 +205,8 @@ importers:
         specifier: ^14.2.0
         version: 14.2.0
       '@types/node':
-        specifier: ^25.9.7
-        version: 25.9.7
+        specifier: ^25.9.8
+        version: 25.9.8
       '@types/qrcode-terminal':
         specifier: ^0.12.2
         version: 0.12.2
@@ -245,7 +245,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^4.1.11
-        version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+        version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.8)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
     optionalDependencies:
       '@discordjs/opus':
         specifier: ^0.10.0
@@ -487,17 +487,17 @@ importers:
         version: 0.21.1(signal-polyfill@0.2.2)
       vite:
         specifier: 7.3.1
-        version: 7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+        version: 7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
     devDependencies:
       '@vitest/browser-playwright':
         specifier: 4.0.18
-        version: 4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
+        version: 4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
       playwright:
         specifier: ^1.58.2
         version: 1.58.2
       vitest:
         specifier: 4.0.18
-        version: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+        version: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
 
 packages:
 
@@ -533,8 +533,8 @@ packages:
     resolution: {integrity: sha512-NIxJFcNVkosSAz92CEVR/CQI1yPBHJ7XugVzIlFMzOfkTMC7KZMH0S5gnXj58sOgD0wxQFc7w1H6HAqFc9Dt2g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-bedrock@3.1135.0':
-    resolution: {integrity: sha512-g6Mah5L3mqvuUxVUJH5GnEegHh2R3R1aPM25RFH1/Orn5Ysldzk8olmpE+ck41fJg8GTrvzcb4U9T7xFVkn/KQ==}
+  '@aws-sdk/client-bedrock@3.1136.0':
+    resolution: {integrity: sha512-7WJt7duGYkrjdfv/AuRupzK0DJ0S1C/JzDNdwCFPv3ljGqpIu3N1OGrcUrTRJhnkUQQ0F7LMt0Ubw04ZLS3LVA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.978.0':
@@ -601,8 +601,8 @@ packages:
     resolution: {integrity: sha512-bQKuWGhkv6eSdyASCHH1ppi/9DCtxRNN/7tCUbsGsrJtR5Kqj4xknx6zbQ7DolxsD28upl7rzPgukPWgDk0J5Q==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/token-providers@3.1135.0':
-    resolution: {integrity: sha512-JEYc/NHSDKGLmtQtaG5xZ1hmyFZ0Lav6GGAG417VaYyUURT0EeQEAnfVIkZQsLg5+P8BxCAv8YLIEpU2aNh++A==}
+  '@aws-sdk/token-providers@3.1136.0':
+    resolution: {integrity: sha512-CHjdpFszuNTUEQ2z1F85pOiHxpLe0fDyvTUoNAZ7YczdTMEfU6TSA7FVZelAM67L/g6xcS31U64HuBl42dSKCA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/types@3.974.5':
@@ -3256,14 +3256,14 @@ packages:
   '@types/node@20.19.43':
     resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
 
-  '@types/node@22.20.3':
-    resolution: {integrity: sha512-DZmzkmwHzXrLPAXPyKNDzlIwMMUZCVacoD25ywdy5YTKGbOx/2ld+Q38Im2zJ0vBuZP5Prd3VZutKZyXwkOS8A==}
+  '@types/node@24.13.6':
+    resolution: {integrity: sha512-SGrw/h3KPFshy3OE6ZL53LMBG5vGQQ8/gIpiqz/kRZhPJ7HgwCEs8LBuNtWLa8dvGZVpSF7+Bf+c11HUrCb/yg==}
 
-  '@types/node@24.13.5':
-    resolution: {integrity: sha512-TXyindR+lBr22aJIdMQzCFHPHR6cR4js838mRDCSz5hOKWZvZwsXSSiXDmjRj4iJmgl+sR9O+1mkoVBSMadNug==}
+  '@types/node@25.9.8':
+    resolution: {integrity: sha512-VfMrScDmMhUJQmd5hArdQnFvK0OIeD36uN2Va1FcpYaLB/BgkgM8Ulc50XtYISPMz7APJ30+N0T5EM0jlcdfRw==}
 
-  '@types/node@25.9.7':
-    resolution: {integrity: sha512-Y+axoNWOFLvDNFxNbDA+kqqV05imHwTu5bZWWO6tQM3Y2NX1jvzUJkYlf4nYnMCnvu4wQBKW6Nr+ok6yHWA9aQ==}
+  '@types/node@26.6.2':
+    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
 
   '@types/qrcode-terminal@0.12.2':
     resolution: {integrity: sha512-v+RcIEJ+Uhd6ygSQ0u5YYY7ZM+la7GgPbs0V/7l/kFs2uO4S8BcIUEMoP7za4DNIqNnUD5npf0A/7kBhrCKG5Q==}
@@ -6229,6 +6229,9 @@ packages:
   undici-types@7.24.6:
     resolution: {integrity: sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==}
 
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
+
   undici@7.22.0:
     resolution: {integrity: sha512-RqslV2Us5BrllB+JeiZnK4peryVTndy9Dnqq62S3yYRRTj0tFQCwEniUy2167skdGOy3vqRzEvl1Dm4sV2ReDg==}
     engines: {node: '>=20.18.1'}
@@ -6612,11 +6615,11 @@ snapshots:
       '@smithy/types': 4.18.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-bedrock@3.1135.0':
+  '@aws-sdk/client-bedrock@3.1136.0':
     dependencies:
       '@aws-sdk/core': 3.978.0
       '@aws-sdk/credential-provider-node': 3.972.83
-      '@aws-sdk/token-providers': 3.1135.0
+      '@aws-sdk/token-providers': 3.1136.0
       '@aws-sdk/types': 3.974.5
       '@smithy/core': 3.34.1
       '@smithy/fetch-http-handler': 5.8.0
@@ -6779,7 +6782,7 @@ snapshots:
       '@smithy/types': 4.18.0
       tslib: 2.8.1
 
-  '@aws-sdk/token-providers@3.1135.0':
+  '@aws-sdk/token-providers@3.1136.0':
     dependencies:
       '@aws-sdk/core': 3.978.0
       '@aws-sdk/nested-clients': 3.997.45
@@ -6881,7 +6884,7 @@ snapshots:
 
   '@buape/carbon@0.0.0-beta-20260216184201(@discordjs/opus@0.10.0)(hono@4.11.10)(opusscript@0.1.1)':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       discord-api-types: 0.38.37
     optionalDependencies:
       '@cloudflare/workers-types': 4.20260120.0
@@ -7583,7 +7586,7 @@ snapshots:
 
   '@line/bot-sdk@10.8.0':
     dependencies:
-      '@types/node': 24.13.5
+      '@types/node': 24.13.6
     optionalDependencies:
       axios: 1.20.0
     transitivePeerDependencies:
@@ -8915,14 +8918,14 @@ snapshots:
 
   '@slack/logger@4.0.1':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@slack/oauth@3.0.5':
     dependencies:
       '@slack/logger': 4.0.1
       '@slack/web-api': 7.19.0
       '@types/jsonwebtoken': 9.0.10
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       jsonwebtoken: 9.0.3
     transitivePeerDependencies:
       - debug
@@ -8932,7 +8935,7 @@ snapshots:
     dependencies:
       '@slack/logger': 4.0.1
       '@slack/web-api': 7.19.0
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       '@types/ws': 8.18.1
       eventemitter3: 5.0.4
       ws: 8.21.3
@@ -8948,7 +8951,7 @@ snapshots:
     dependencies:
       '@slack/logger': 4.0.1
       '@slack/types': 2.22.0
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       '@types/retry': 0.12.0
       axios: 1.20.0
       eventemitter3: 5.0.4
@@ -9182,7 +9185,7 @@ snapshots:
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@types/bun@1.3.9':
     dependencies:
@@ -9202,7 +9205,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@types/deep-eql@4.0.2': {}
 
@@ -9210,14 +9213,14 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.9':
     dependencies:
-      '@types/node': 22.20.3
+      '@types/node': 26.6.2
       '@types/qs': 6.15.1
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
 
   '@types/express-serve-static-core@5.1.3':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       '@types/qs': 6.15.1
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -9242,7 +9245,7 @@ snapshots:
   '@types/jsonwebtoken@9.0.10':
     dependencies:
       '@types/ms': 2.1.0
-      '@types/node': 22.20.3
+      '@types/node': 25.9.8
 
   '@types/linkify-it@5.0.0': {}
 
@@ -9263,17 +9266,17 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@22.20.3':
-    dependencies:
-      undici-types: 6.21.0
-
-  '@types/node@24.13.5':
+  '@types/node@24.13.6':
     dependencies:
       undici-types: 7.18.2
 
-  '@types/node@25.9.7':
+  '@types/node@25.9.8':
     dependencies:
       undici-types: 7.24.6
+
+  '@types/node@26.6.2':
+    dependencies:
+      undici-types: 8.9.0
 
   '@types/qrcode-terminal@0.12.2': {}
 
@@ -9284,7 +9287,7 @@ snapshots:
   '@types/request@2.48.13':
     dependencies:
       '@types/caseless': 0.12.5
-      '@types/node': 22.20.3
+      '@types/node': 26.6.2
       '@types/tough-cookie': 4.0.5
       form-data: 2.5.4
 
@@ -9293,22 +9296,22 @@ snapshots:
   '@types/send@0.17.6':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 22.20.3
+      '@types/node': 26.6.2
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@types/serve-static@1.15.10':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 22.20.3
+      '@types/node': 26.6.2
       '@types/send': 0.17.6
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@types/tough-cookie@4.0.5': {}
 
@@ -9316,7 +9319,7 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
 
   '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260224.1':
     optional: true
@@ -9421,29 +9424,29 @@ snapshots:
       - '@cypress/request'
       - supports-color
 
-  '@vitest/browser-playwright@4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)':
+  '@vitest/browser-playwright@4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)':
     dependencies:
-      '@vitest/browser': 4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
-      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+      '@vitest/browser': 4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
+      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
       playwright: 1.58.2
       tinyrainbow: 3.1.1
-      vitest: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vitest: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
     transitivePeerDependencies:
       - bufferutil
       - msw
       - utf-8-validate
       - vite
 
-  '@vitest/browser@4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)':
+  '@vitest/browser@4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)':
     dependencies:
-      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
       '@vitest/utils': 4.0.18
       magic-string: 0.30.21
       pixelmatch: 7.1.0
       pngjs: 7.0.0
       sirv: 3.0.2
       tinyrainbow: 3.1.1
-      vitest: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vitest: 4.0.18(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
       ws: 8.21.3
     transitivePeerDependencies:
       - bufferutil
@@ -9463,7 +9466,7 @@ snapshots:
       obug: 2.2.1
       std-env: 4.2.0
       tinyrainbow: 3.1.1
-      vitest: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+      vitest: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.8)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
 
   '@vitest/expect@4.0.18':
     dependencies:
@@ -9483,21 +9486,21 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.1
 
-  '@vitest/mocker@4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))':
+  '@vitest/mocker@4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.0.18
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vite: 7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
 
-  '@vitest/mocker@4.1.11(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))':
+  '@vitest/mocker@4.1.11(vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.1.11
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vite: 7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
 
   '@vitest/pretty-format@4.0.18':
     dependencies:
@@ -9839,7 +9842,7 @@ snapshots:
 
   bun-types@1.3.9:
     dependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
     optional: true
 
   bytes@3.1.2: {}
@@ -11888,7 +11891,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.2
-      '@types/node': 22.20.3
+      '@types/node': 25.9.8
       long: 5.3.2
 
   protobufjs@8.0.0:
@@ -11903,7 +11906,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.2
-      '@types/node': 22.20.3
+      '@types/node': 26.6.2
       long: 5.3.2
 
   proxy-addr@2.0.8:
@@ -12657,6 +12660,8 @@ snapshots:
 
   undici-types@7.24.6: {}
 
+  undici-types@8.9.0: {}
+
   undici@7.22.0: {}
 
   undici@7.29.1: {}
@@ -12702,7 +12707,7 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1):
+  vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1):
     dependencies:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.7)
@@ -12711,17 +12716,33 @@ snapshots:
       rollup: 4.63.3
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       fsevents: 2.3.3
       jiti: 2.7.0
       lightningcss: 1.30.2
       tsx: 4.23.13
       yaml: 2.9.1
 
-  vitest@4.0.18(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1):
+  vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1):
+    dependencies:
+      esbuild: 0.27.7
+      fdir: 6.5.0(picomatch@4.0.7)
+      picomatch: 4.0.7
+      postcss: 8.5.28
+      rollup: 4.63.3
+      tinyglobby: 0.2.17
+    optionalDependencies:
+      '@types/node': 26.6.2
+      fsevents: 2.3.3
+      jiti: 2.7.0
+      lightningcss: 1.30.2
+      tsx: 4.23.13
+      yaml: 2.9.1
+
+  vitest@4.0.18(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(@vitest/browser-playwright@4.0.18)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1):
     dependencies:
       '@vitest/expect': 4.0.18
-      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+      '@vitest/mocker': 4.0.18(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
       '@vitest/pretty-format': 4.0.18
       '@vitest/runner': 4.0.18
       '@vitest/snapshot': 4.0.18
@@ -12738,12 +12759,12 @@ snapshots:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.1
-      vite: 7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vite: 7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
-      '@types/node': 25.9.7
-      '@vitest/browser-playwright': 4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
+      '@types/node': 26.6.2
+      '@vitest/browser-playwright': 4.0.18(playwright@1.58.2)(vite@7.3.1(@types/node@26.6.2)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))(vitest@4.0.18)
     transitivePeerDependencies:
       - jiti
       - less
@@ -12757,10 +12778,10 @@ snapshots:
       - tsx
       - yaml
 
-  vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.7)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)):
+  vitest@4.1.11(@opentelemetry/api@1.9.1)(@types/node@25.9.8)(@vitest/coverage-v8@4.1.11)(vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)):
     dependencies:
       '@vitest/expect': 4.1.11
-      '@vitest/mocker': 4.1.11(vite@7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
+      '@vitest/mocker': 4.1.11(vite@7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1))
       '@vitest/pretty-format': 4.1.11
       '@vitest/runner': 4.1.11
       '@vitest/snapshot': 4.1.11
@@ -12777,11 +12798,11 @@ snapshots:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.1
-      vite: 7.3.1(@types/node@25.9.7)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
+      vite: 7.3.1(@types/node@25.9.8)(jiti@2.7.0)(lightningcss@1.30.2)(tsx@4.23.13)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
-      '@types/node': 25.9.7
+      '@types/node': 25.9.8
       '@vitest/coverage-v8': 4.1.11(vitest@4.1.11)
     transitivePeerDependencies:
       - msw
