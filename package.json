@@ -212,7 +212,7 @@
     "oxlint-tsgolint": "^0.15.0",
     "signal-utils": "0.21.1",
     "tsdown": "^0.20.3",
-    "tsx": "^4.23.13",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^4.1.11"
   },
